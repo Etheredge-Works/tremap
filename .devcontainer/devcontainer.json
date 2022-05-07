@@ -35,10 +35,10 @@
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
-    "runArgs": ["--gpus=all"],
+    "runArgs": ["--gpus=all", "--env-file=.env"],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip install -r requirements.txt",
+	"postCreateCommand": "pip install -r requirements.txt && streamlit run site/app.py",
 
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
