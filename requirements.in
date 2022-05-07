@@ -11,3 +11,6 @@ streamlit
 dvc[s3]
 
 pip-tools
+numpy
+pandas
+pydeck
