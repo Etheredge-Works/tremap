@@ -1,0 +1,2209 @@
+{
+    "DNA": {
+        "DIPLOTYPES": {
+            "ABCB1": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "rs1045642.1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1045642"
+                ]
+            },
+            "ABCG2": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs2231142"
+                ]
+            },
+            "ACYP2": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1872328"
+                ]
+            },
+            "ADRB2": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1042713"
+                ]
+            },
+            "ANKK1": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1800497"
+                ]
+            },
+            "CACNA1S": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1800559",
+                    "rs772226819"
+                ]
+            },
+            "CALU": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs339097"
+                ]
+            },
+            "CEP72": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "rs924607",
+                        "H2": "rs924607"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs924607"
+                ]
+            },
+            "CETP": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1532624"
+                ]
+            },
+            "COMT": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "rs4680",
+                        "H2": "rs4680"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs4680"
+                ]
+            },
+            "COQ2": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "rs4693075"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs4693075"
+                ]
+            },
+            "CYP2B6": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*6",
+                        "H2": "*6"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs2279343",
+                    "rs28399499",
+                    "rs3745274"
+                ]
+            },
+            "CYP2C": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs12777823"
+                ]
+            },
+            "CYP2C19": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs12248560",
+                    "rs4986893",
+                    "rs41291556",
+                    "rs4244285",
+                    "rs56337013",
+                    "rs72552267",
+                    "rs28399504"
+                ]
+            },
+            "CYP2C8": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs10509681"
+                ]
+            },
+            "CYP2C9": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1799853",
+                    "rs1057910",
+                    "rs56165452",
+                    "rs7900194",
+                    "rs28371685",
+                    "rs9332131",
+                    "rs28371686"
+                ]
+            },
+            "CYP2D6": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*2"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1065852",
+                    "rs28371706",
+                    "Hs00010001_cn",
+                    "rs28371725",
+                    "rs5030655",
+                    "rs5030656",
+                    "rs59421388",
+                    "Hs04083572_cn",
+                    "rs5030865",
+                    "rs35742686",
+                    "rs3892097",
+                    "rs16947",
+                    "Hs04502391_cn"
+                ]
+            },
+            "CYP3A5": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*3",
+                        "H2": "*3"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs776746"
+                ]
+            },
+            "CYP4F2": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*3"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs2108622"
+                ]
+            },
+            "DPYD": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs78060119",
+                    "rs115232898",
+                    "rs67376798",
+                    "rs55886062",
+                    "rs1801268",
+                    "rs3918290",
+                    "rs72549303",
+                    "rs75017182",
+                    "rs1801266",
+                    "rs72549309"
+                ]
+            },
+            "DRD2": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1799978"
+                ]
+            },
+            "F5": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs6025"
+                ]
+            },
+            "FKBP5": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "rs4713916"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs4713916"
+                ]
+            },
+            "G6PD": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1050829",
+                    "rs5030868",
+                    "rs1050828"
+                ]
+            },
+            "GRIK4": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "rs1954787",
+                        "H2": "rs1954787"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1954787"
+                ]
+            },
+            "HMGCR": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs17244841"
+                ]
+            },
+            "HTR2A": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "rs7997012",
+                        "H2": "rs7997012"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs7997012"
+                ]
+            },
+            "HTR2C": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "rs1414334",
+                        "H2": "rs1414334"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1414334",
+                    "rs3813929"
+                ]
+            },
+            "IFNL3": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "rs12979860"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs12979860"
+                ]
+            },
+            "KIF6": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "rs20455"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs20455"
+                ]
+            },
+            "LPA": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs10455872",
+                    "rs3798220"
+                ]
+            },
+            "MC4R": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "rs489693"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs489693"
+                ]
+            },
+            "MTHFR": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "rs1801133"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1801133"
+                ]
+            },
+            "NUDT15": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs116855232"
+                ]
+            },
+            "OPRD1": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "rs678849",
+                        "H2": "rs678849"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs678849"
+                ]
+            },
+            "OPRM1": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1799971"
+                ]
+            },
+            "RYR1": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs193922753",
+                    "rs118192168",
+                    "rs193922878",
+                    "rs193922802",
+                    "rs118192177",
+                    "rs121918593",
+                    "rs121918594",
+                    "rs118192124",
+                    "rs118192178",
+                    "rs193922818",
+                    "rs118192172",
+                    "rs63749869",
+                    "rs193922816",
+                    "rs118192116",
+                    "rs118192162",
+                    "rs193922876",
+                    "rs121918596",
+                    "rs193922747",
+                    "rs193922770",
+                    "rs193922803",
+                    "rs193922772",
+                    "rs193922807",
+                    "rs118192122",
+                    "rs193922832",
+                    "rs193922843",
+                    "rs28933397",
+                    "rs118192175",
+                    "rs118192170",
+                    "rs1801086",
+                    "rs121918595",
+                    "rs118192161",
+                    "rs118192167",
+                    "rs112563513",
+                    "rs28933396",
+                    "rs121918592",
+                    "rs193922768",
+                    "rs111888148",
+                    "rs193922809"
+                ]
+            },
+            "SLCO1B1": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs4149056"
+                ]
+            },
+            "TPMT": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs1800460",
+                    "rs1800584",
+                    "rs1142345",
+                    "rs1800462"
+                ]
+            },
+            "UGT1A1": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*80"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs887829",
+                    "rs4148323"
+                ]
+            },
+            "VKORC1": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "rs9923231"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs9923231"
+                ]
+            },
+            "YEATS4": {
+                "DIPLOTYPE_CALL": [
+                    {
+                        "H1": "*1",
+                        "H2": "*1"
+                    }
+                ],
+                "FAILED_VARIANTS": [],
+                "TESTED_VARIANTS": [
+                    "rs7297610"
+                ]
+            }
+        },
+        "VARIANT_CALLS": {
+            "Hs00010001_cn": {
+                "ALIASES": [
+                    ""
+                ],
+                "ALTS": [
+                    "1"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:1",
+                "GENOTYPE": "2",
+                "POS": 1,
+                "REF": "2"
+            },
+            "Hs04083572_cn": {
+                "ALIASES": [
+                    ""
+                ],
+                "ALTS": [
+                    "1"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:2",
+                "GENOTYPE": "2",
+                "POS": 2,
+                "REF": "2"
+            },
+            "Hs04502391_cn": {
+                "ALIASES": [
+                    ""
+                ],
+                "ALTS": [
+                    "1"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:3",
+                "GENOTYPE": "2",
+                "POS": 3,
+                "REF": "2"
+            },
+            "rs1042713": {
+                "ALIASES": [
+                    "rs1042713"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr5",
+                "COORDINATES": "chr5:148826877",
+                "GENOTYPE": "G/G",
+                "POS": 148826877,
+                "REF": "G"
+            },
+            "rs10455872": {
+                "ALIASES": [
+                    "rs10455872"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr6",
+                "COORDINATES": "chr6:160589086",
+                "GENOTYPE": "A/A",
+                "POS": 160589086,
+                "REF": "A"
+            },
+            "rs1045642": {
+                "ALIASES": [
+                    "3435C>T"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr7",
+                "COORDINATES": "chr7:87509329",
+                "GENOTYPE": "A/G",
+                "POS": 87509329,
+                "REF": "A"
+            },
+            "rs1050828": {
+                "ALIASES": [
+                    "202G>A"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chrX",
+                "COORDINATES": "chrX:154536002",
+                "GENOTYPE": "C/C",
+                "POS": 154536002,
+                "REF": "C"
+            },
+            "rs1050829": {
+                "ALIASES": [
+                    "376A>G"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chrX",
+                "COORDINATES": "chrX:154535277",
+                "GENOTYPE": "T/T",
+                "POS": 154535277,
+                "REF": "T"
+            },
+            "rs10509681": {
+                "ALIASES": [
+                    "c.1196A>G"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:95038992",
+                "GENOTYPE": "T/T",
+                "POS": 95038992,
+                "REF": "T"
+            },
+            "rs1057910": {
+                "ALIASES": [
+                    "42614A>C"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94981296",
+                "GENOTYPE": "A/A",
+                "POS": 94981296,
+                "REF": "A"
+            },
+            "rs1065852": {
+                "ALIASES": [
+                    "100C>T"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:42130692",
+                "GENOTYPE": "G/G",
+                "POS": 42130692,
+                "REF": "G"
+            },
+            "rs111888148": {
+                "ALIASES": [
+                    "c.1589G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38455463",
+                "GENOTYPE": "G/G",
+                "POS": 38455463,
+                "REF": "G"
+            },
+            "rs112563513": {
+                "ALIASES": [
+                    "c.7007G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38499223",
+                "GENOTYPE": "G/G",
+                "POS": 38499223,
+                "REF": "G"
+            },
+            "rs1142345": {
+                "ALIASES": [
+                    "c.719A>G"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr6",
+                "COORDINATES": "chr6:18130687",
+                "GENOTYPE": "T/T",
+                "POS": 18130687,
+                "REF": "T"
+            },
+            "rs115232898": {
+                "ALIASES": [
+                    "557A>G"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:97699474",
+                "GENOTYPE": "T/T",
+                "POS": 97699474,
+                "REF": "T"
+            },
+            "rs116855232": {
+                "ALIASES": [
+                    "415C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr13",
+                "COORDINATES": "chr13:48045719",
+                "GENOTYPE": "C/C",
+                "POS": 48045719,
+                "REF": "C"
+            },
+            "rs118192116": {
+                "ALIASES": [
+                    "c.1209C>G"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38451850",
+                "GENOTYPE": "C/C",
+                "POS": 38451850,
+                "REF": "C"
+            },
+            "rs118192122": {
+                "ALIASES": [
+                    "c.7361G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38500643",
+                "GENOTYPE": "G/G",
+                "POS": 38500643,
+                "REF": "G"
+            },
+            "rs118192124": {
+                "ALIASES": [
+                    "c.7354C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38500636",
+                "GENOTYPE": "C/C",
+                "POS": 38500636,
+                "REF": "C"
+            },
+            "rs118192161": {
+                "ALIASES": [
+                    "c.487C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38444211",
+                "GENOTYPE": "C/C",
+                "POS": 38444211,
+                "REF": "C"
+            },
+            "rs118192162": {
+                "ALIASES": [
+                    "c.1565A>C"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38455359",
+                "GENOTYPE": "A/A",
+                "POS": 38455359,
+                "REF": "A"
+            },
+            "rs118192167": {
+                "ALIASES": [
+                    "c.14387A>G"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38580004",
+                "GENOTYPE": "A/A",
+                "POS": 38580004,
+                "REF": "A"
+            },
+            "rs118192168": {
+                "ALIASES": [
+                    "c.14545G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38580403",
+                "GENOTYPE": "G/G",
+                "POS": 38580403,
+                "REF": "G"
+            },
+            "rs118192170": {
+                "ALIASES": [
+                    "c.14693T>C"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38584989",
+                "GENOTYPE": "T/T",
+                "POS": 38584989,
+                "REF": "T"
+            },
+            "rs118192172": {
+                "ALIASES": [
+                    "c.1840C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38457545",
+                "GENOTYPE": "C/C",
+                "POS": 38457545,
+                "REF": "C"
+            },
+            "rs118192175": {
+                "ALIASES": [
+                    "c.6487C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38494564",
+                "GENOTYPE": "C/C",
+                "POS": 38494564,
+                "REF": "C"
+            },
+            "rs118192177": {
+                "ALIASES": [
+                    "c.6617C>G",
+                    "c.6617C>T"
+                ],
+                "ALTS": [
+                    "G",
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38496283",
+                "GENOTYPE": "C/C",
+                "POS": 38496283,
+                "REF": "C"
+            },
+            "rs118192178": {
+                "ALIASES": [
+                    "c.7522C>G",
+                    "c.7522C>T"
+                ],
+                "ALTS": [
+                    "G",
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38500898",
+                "GENOTYPE": "C/C",
+                "POS": 38500898,
+                "REF": "C"
+            },
+            "rs121918592": {
+                "ALIASES": [
+                    "c.1021G>A",
+                    "c.1021G>C"
+                ],
+                "ALTS": [
+                    "A",
+                    "C"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38448712",
+                "GENOTYPE": "G/G",
+                "POS": 38448712,
+                "REF": "G"
+            },
+            "rs121918593": {
+                "ALIASES": [
+                    "c.7300G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38499993",
+                "GENOTYPE": "G/G",
+                "POS": 38499993,
+                "REF": "G"
+            },
+            "rs121918594": {
+                "ALIASES": [
+                    "c.7373G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38500655",
+                "GENOTYPE": "G/G",
+                "POS": 38500655,
+                "REF": "G"
+            },
+            "rs121918595": {
+                "ALIASES": [
+                    "c.14477C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38580094",
+                "GENOTYPE": "C/C",
+                "POS": 38580094,
+                "REF": "C"
+            },
+            "rs121918596": {
+                "ALIASES": [
+                    "c.7039_7041delGAG"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38499645",
+                "GENOTYPE": "GGAG/GGAG",
+                "POS": 38499645,
+                "REF": "GGAG"
+            },
+            "rs12248560": {
+                "ALIASES": [
+                    "-806C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94761900",
+                "GENOTYPE": "C/C",
+                "POS": 94761900,
+                "REF": "C"
+            },
+            "rs12777823": {
+                "ALIASES": [
+                    "g.96405502G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94645745",
+                "GENOTYPE": "G/G",
+                "POS": 94645745,
+                "REF": "G"
+            },
+            "rs12979860": {
+                "ALIASES": [
+                    "rs12979860"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:39248147",
+                "GENOTYPE": "C/T",
+                "POS": 39248147,
+                "REF": "C"
+            },
+            "rs1414334": {
+                "ALIASES": [
+                    "114138144C>G"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chrX",
+                "COORDINATES": "chrX:114903581",
+                "GENOTYPE": "G/G",
+                "POS": 114903581,
+                "REF": "C"
+            },
+            "rs1532624": {
+                "ALIASES": [
+                    "g.57005479C>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr16",
+                "COORDINATES": "chr16:56971567",
+                "GENOTYPE": "C/C",
+                "POS": 56971567,
+                "REF": "C"
+            },
+            "rs16947": {
+                "ALIASES": [
+                    "2850C>T"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:42127941",
+                "GENOTYPE": "A/G",
+                "POS": 42127941,
+                "REF": "G"
+            },
+            "rs17244841": {
+                "ALIASES": [
+                    "g.74642855A>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr5",
+                "COORDINATES": "chr5:75347030",
+                "GENOTYPE": "A/A",
+                "POS": 75347030,
+                "REF": "A"
+            },
+            "rs1799853": {
+                "ALIASES": [
+                    "3608C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94942290",
+                "GENOTYPE": "C/C",
+                "POS": 94942290,
+                "REF": "C"
+            },
+            "rs1799971": {
+                "ALIASES": [
+                    "A118G"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr6",
+                "COORDINATES": "chr6:154039662",
+                "GENOTYPE": "A/A",
+                "POS": 154039662,
+                "REF": "A"
+            },
+            "rs1799978": {
+                "ALIASES": [
+                    "-241A>G"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr11",
+                "COORDINATES": "chr11:113475629",
+                "GENOTYPE": "T/T",
+                "POS": 113475629,
+                "REF": "T"
+            },
+            "rs1800460": {
+                "ALIASES": [
+                    "c.460G>A"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr6",
+                "COORDINATES": "chr6:18138997",
+                "GENOTYPE": "C/C",
+                "POS": 18138997,
+                "REF": "C"
+            },
+            "rs1800462": {
+                "ALIASES": [
+                    "c.238G>C"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr6",
+                "COORDINATES": "chr6:18143724",
+                "GENOTYPE": "C/C",
+                "POS": 18143724,
+                "REF": "C"
+            },
+            "rs1800497": {
+                "ALIASES": [
+                    "DRD2:Taq1A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr11",
+                "COORDINATES": "chr11:113400106",
+                "GENOTYPE": "G/G",
+                "POS": 113400106,
+                "REF": "G"
+            },
+            "rs1800559": {
+                "ALIASES": [
+                    "c.3257G>A"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:201060815",
+                "GENOTYPE": "C/C",
+                "POS": 201060815,
+                "REF": "C"
+            },
+            "rs1800584": {
+                "ALIASES": [
+                    "c.626-1G>A"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr6",
+                "COORDINATES": "chr6:18130781",
+                "GENOTYPE": "C/C",
+                "POS": 18130781,
+                "REF": "C"
+            },
+            "rs1801086": {
+                "ALIASES": [
+                    "c.742G>A",
+                    "c.742G>C"
+                ],
+                "ALTS": [
+                    "A",
+                    "C"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38446710",
+                "GENOTYPE": "G/G",
+                "POS": 38446710,
+                "REF": "G"
+            },
+            "rs1801133": {
+                "ALIASES": [
+                    "c.665C>T"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:11796321",
+                "GENOTYPE": "G/A",
+                "POS": 11796321,
+                "REF": "G"
+            },
+            "rs1801266": {
+                "ALIASES": [
+                    "703C>T"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:97691776",
+                "GENOTYPE": "G/G",
+                "POS": 97691776,
+                "REF": "G"
+            },
+            "rs1801268": {
+                "ALIASES": [
+                    "2983G>T"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:97079071",
+                "GENOTYPE": "C/C",
+                "POS": 97079071,
+                "REF": "C"
+            },
+            "rs1872328": {
+                "ALIASES": [
+                    "rs1872328"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr2",
+                "COORDINATES": "chr2:54168122",
+                "GENOTYPE": "G/G",
+                "POS": 54168122,
+                "REF": "G"
+            },
+            "rs193922747": {
+                "ALIASES": [
+                    "c.103T>C"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38440802",
+                "GENOTYPE": "T/T",
+                "POS": 38440802,
+                "REF": "T"
+            },
+            "rs193922753": {
+                "ALIASES": [
+                    "c.488G>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38444212",
+                "GENOTYPE": "G/G",
+                "POS": 38444212,
+                "REF": "G"
+            },
+            "rs193922768": {
+                "ALIASES": [
+                    "c.1597C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38455471",
+                "GENOTYPE": "C/C",
+                "POS": 38455471,
+                "REF": "C"
+            },
+            "rs193922770": {
+                "ALIASES": [
+                    "c.1654C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38455528",
+                "GENOTYPE": "C/C",
+                "POS": 38455528,
+                "REF": "C"
+            },
+            "rs193922772": {
+                "ALIASES": [
+                    "c.1841G>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38457546",
+                "GENOTYPE": "G/G",
+                "POS": 38457546,
+                "REF": "G"
+            },
+            "rs193922802": {
+                "ALIASES": [
+                    "c.7048G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38499655",
+                "GENOTYPE": "G/G",
+                "POS": 38499655,
+                "REF": "G"
+            },
+            "rs193922803": {
+                "ALIASES": [
+                    "c.7063C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38499670",
+                "GENOTYPE": "C/C",
+                "POS": 38499670,
+                "REF": "C"
+            },
+            "rs193922807": {
+                "ALIASES": [
+                    "c.7124G>C"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38499731",
+                "GENOTYPE": "G/G",
+                "POS": 38499731,
+                "REF": "G"
+            },
+            "rs193922809": {
+                "ALIASES": [
+                    "c.7282G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38499975",
+                "GENOTYPE": "G/G",
+                "POS": 38499975,
+                "REF": "G"
+            },
+            "rs193922816": {
+                "ALIASES": [
+                    "c.7360C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38500642",
+                "GENOTYPE": "C/C",
+                "POS": 38500642,
+                "REF": "C"
+            },
+            "rs193922818": {
+                "ALIASES": [
+                    "c.7523G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38500899",
+                "GENOTYPE": "G/G",
+                "POS": 38500899,
+                "REF": "G"
+            },
+            "rs193922832": {
+                "ALIASES": [
+                    "c.9310G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38512321",
+                "GENOTYPE": "G/G",
+                "POS": 38512321,
+                "REF": "G"
+            },
+            "rs193922843": {
+                "ALIASES": [
+                    "c.11969G>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38543832",
+                "GENOTYPE": "G/G",
+                "POS": 38543832,
+                "REF": "G"
+            },
+            "rs193922876": {
+                "ALIASES": [
+                    "c.14497C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38580114",
+                "GENOTYPE": "C/C",
+                "POS": 38580114,
+                "REF": "C"
+            },
+            "rs193922878": {
+                "ALIASES": [
+                    "c.14512C>G"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38580370",
+                "GENOTYPE": "C/C",
+                "POS": 38580370,
+                "REF": "C"
+            },
+            "rs1954787": {
+                "ALIASES": [
+                    "83-10039T>C"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr11",
+                "COORDINATES": "chr11:120792654",
+                "GENOTYPE": "C/C",
+                "POS": 120792654,
+                "REF": "T"
+            },
+            "rs20455": {
+                "ALIASES": [
+                    "rs20455"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr6",
+                "COORDINATES": "chr6:39357302",
+                "GENOTYPE": "A/G",
+                "POS": 39357302,
+                "REF": "A"
+            },
+            "rs2108622": {
+                "ALIASES": [
+                    "c.1297G>A"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:15879621",
+                "GENOTYPE": "C/T",
+                "POS": 15879621,
+                "REF": "C"
+            },
+            "rs2231142": {
+                "ALIASES": [
+                    "421C>A"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr4",
+                "COORDINATES": "chr4:88131171",
+                "GENOTYPE": "G/G",
+                "POS": 88131171,
+                "REF": "G"
+            },
+            "rs2279343": {
+                "ALIASES": [
+                    "785A>G"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:41009358",
+                "GENOTYPE": "G/G",
+                "POS": 41009358,
+                "REF": "A"
+            },
+            "rs28371685": {
+                "ALIASES": [
+                    "42542C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94981224",
+                "GENOTYPE": "C/C",
+                "POS": 94981224,
+                "REF": "C"
+            },
+            "rs28371686": {
+                "ALIASES": [
+                    "42619C>G"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94981301",
+                "GENOTYPE": "C/C",
+                "POS": 94981301,
+                "REF": "C"
+            },
+            "rs28371706": {
+                "ALIASES": [
+                    "1023C>T"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:42129770",
+                "GENOTYPE": "G/G",
+                "POS": 42129770,
+                "REF": "G"
+            },
+            "rs28371725": {
+                "ALIASES": [
+                    "2988G>A"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:42127803",
+                "GENOTYPE": "C/C",
+                "POS": 42127803,
+                "REF": "C"
+            },
+            "rs28399499": {
+                "ALIASES": [
+                    "983T>C"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:41012316",
+                "GENOTYPE": "T/T",
+                "POS": 41012316,
+                "REF": "T"
+            },
+            "rs28399504": {
+                "ALIASES": [
+                    "1A>G"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94762706",
+                "GENOTYPE": "A/A",
+                "POS": 94762706,
+                "REF": "A"
+            },
+            "rs28933396": {
+                "ALIASES": [
+                    "c.7304G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38499997",
+                "GENOTYPE": "G/G",
+                "POS": 38499997,
+                "REF": "G"
+            },
+            "rs28933397": {
+                "ALIASES": [
+                    "c.7372C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38500654",
+                "GENOTYPE": "C/C",
+                "POS": 38500654,
+                "REF": "C"
+            },
+            "rs339097": {
+                "ALIASES": [
+                    "g.128399224A>G"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr7",
+                "COORDINATES": "chr7:128759170",
+                "GENOTYPE": "A/A",
+                "POS": 128759170,
+                "REF": "A"
+            },
+            "rs35742686": {
+                "ALIASES": [
+                    "2549delA"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:42128241",
+                "GENOTYPE": "CT/CT",
+                "POS": 42128241,
+                "REF": "CT"
+            },
+            "rs3745274": {
+                "ALIASES": [
+                    "516G>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:41006936",
+                "GENOTYPE": "T/T",
+                "POS": 41006936,
+                "REF": "G"
+            },
+            "rs3798220": {
+                "ALIASES": [
+                    "rs3798220"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr6",
+                "COORDINATES": "chr6:160540105",
+                "GENOTYPE": "T/T",
+                "POS": 160540105,
+                "REF": "T"
+            },
+            "rs3813929": {
+                "ALIASES": [
+                    "-759C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chrX",
+                "COORDINATES": "chrX:114584047",
+                "GENOTYPE": "C/C",
+                "POS": 114584047,
+                "REF": "C"
+            },
+            "rs3892097": {
+                "ALIASES": [
+                    "1846G>A"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:42128945",
+                "GENOTYPE": "C/C",
+                "POS": 42128945,
+                "REF": "C"
+            },
+            "rs3918290": {
+                "ALIASES": [
+                    "1905+1G>A"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:97450058",
+                "GENOTYPE": "C/C",
+                "POS": 97450058,
+                "REF": "C"
+            },
+            "rs41291556": {
+                "ALIASES": [
+                    "12711T>C"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94775416",
+                "GENOTYPE": "T/T",
+                "POS": 94775416,
+                "REF": "T"
+            },
+            "rs4148323": {
+                "ALIASES": [
+                    "211G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr2",
+                "COORDINATES": "chr2:233760498",
+                "GENOTYPE": "G/G",
+                "POS": 233760498,
+                "REF": "G"
+            },
+            "rs4149056": {
+                "ALIASES": [
+                    "521T>C"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr12",
+                "COORDINATES": "chr12:21178615",
+                "GENOTYPE": "T/T",
+                "POS": 21178615,
+                "REF": "T"
+            },
+            "rs4244285": {
+                "ALIASES": [
+                    "19154G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94781859",
+                "GENOTYPE": "G/G",
+                "POS": 94781859,
+                "REF": "G"
+            },
+            "rs4680": {
+                "ALIASES": [
+                    "Val158Met"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:19963748",
+                "GENOTYPE": "A/A",
+                "POS": 19963748,
+                "REF": "G"
+            },
+            "rs4693075": {
+                "ALIASES": [
+                    "g.84192168G>C"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr4",
+                "COORDINATES": "chr4:83271015",
+                "GENOTYPE": "G/C",
+                "POS": 83271015,
+                "REF": "G"
+            },
+            "rs4713916": {
+                "ALIASES": [
+                    "rs4713916"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr6",
+                "COORDINATES": "chr6:35702206",
+                "GENOTYPE": "A/G",
+                "POS": 35702206,
+                "REF": "A"
+            },
+            "rs489693": {
+                "ALIASES": [
+                    "g.60215554C>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr18",
+                "COORDINATES": "chr18:60215554",
+                "GENOTYPE": "C/A",
+                "POS": 60215554,
+                "REF": "C"
+            },
+            "rs4986893": {
+                "ALIASES": [
+                    "17948G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94780653",
+                "GENOTYPE": "G/G",
+                "POS": 94780653,
+                "REF": "G"
+            },
+            "rs5030655": {
+                "ALIASES": [
+                    "1707delT"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:42129083",
+                "GENOTYPE": "CA/CA",
+                "POS": 42129083,
+                "REF": "CA"
+            },
+            "rs5030656": {
+                "ALIASES": [
+                    "2615_2617delAAG"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:42128173",
+                "GENOTYPE": "CCTT/CCTT",
+                "POS": 42128173,
+                "REF": "CCTT"
+            },
+            "rs5030865": {
+                "ALIASES": [
+                    "1758G>T",
+                    "1758G>A"
+                ],
+                "ALTS": [
+                    "A",
+                    "T"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:42129033",
+                "GENOTYPE": "C/C",
+                "POS": 42129033,
+                "REF": "C"
+            },
+            "rs5030868": {
+                "ALIASES": [
+                    "563C>T"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chrX",
+                "COORDINATES": "chrX:154534419",
+                "GENOTYPE": "G/G",
+                "POS": 154534419,
+                "REF": "G"
+            },
+            "rs55886062": {
+                "ALIASES": [
+                    "1679T>G"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:97515787",
+                "GENOTYPE": "A/A",
+                "POS": 97515787,
+                "REF": "A"
+            },
+            "rs56165452": {
+                "ALIASES": [
+                    "42615T>A",
+                    "42615T>C"
+                ],
+                "ALTS": [
+                    "A",
+                    "C"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94981297",
+                "GENOTYPE": "T/T",
+                "POS": 94981297,
+                "REF": "T"
+            },
+            "rs56337013": {
+                "ALIASES": [
+                    "90033C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94852738",
+                "GENOTYPE": "C/C",
+                "POS": 94852738,
+                "REF": "C"
+            },
+            "rs59421388": {
+                "ALIASES": [
+                    "3183G>A"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr22",
+                "COORDINATES": "chr22:42127608",
+                "GENOTYPE": "C/C",
+                "POS": 42127608,
+                "REF": "C"
+            },
+            "rs6025": {
+                "ALIASES": [
+                    "rs6025"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:169549811",
+                "GENOTYPE": "C/C",
+                "POS": 169549811,
+                "REF": "C"
+            },
+            "rs63749869": {
+                "ALIASES": [
+                    "c.14582G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr19",
+                "COORDINATES": "chr19:38580440",
+                "GENOTYPE": "G/G",
+                "POS": 38580440,
+                "REF": "G"
+            },
+            "rs67376798": {
+                "ALIASES": [
+                    "2846A>T"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:97082391",
+                "GENOTYPE": "T/T",
+                "POS": 97082391,
+                "REF": "T"
+            },
+            "rs678849": {
+                "ALIASES": [
+                    "rs678849"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:28818676",
+                "GENOTYPE": "T/T",
+                "POS": 28818676,
+                "REF": "C"
+            },
+            "rs72549303": {
+                "ALIASES": [
+                    "475994del"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:97450065",
+                "GENOTYPE": "TG/TG",
+                "POS": 97450065,
+                "REF": "TG"
+            },
+            "rs72549309": {
+                "ALIASES": [
+                    "185642_185645delTCAT"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:97740410",
+                "GENOTYPE": "GATGA/GATGA",
+                "POS": 97740410,
+                "REF": "GATGA"
+            },
+            "rs72552267": {
+                "ALIASES": [
+                    "12748G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94775453",
+                "GENOTYPE": "G/G",
+                "POS": 94775453,
+                "REF": "G"
+            },
+            "rs7297610": {
+                "ALIASES": [
+                    "rs7297610"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr12",
+                "COORDINATES": "chr12:69430244",
+                "GENOTYPE": "C/C",
+                "POS": 69430244,
+                "REF": "C"
+            },
+            "rs75017182": {
+                "ALIASES": [
+                    "c.1129-5923C>G"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:97579893",
+                "GENOTYPE": "G/G",
+                "POS": 97579893,
+                "REF": "G"
+            },
+            "rs772226819": {
+                "ALIASES": [
+                    "c.520C>T"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:201091993",
+                "GENOTYPE": "G/G",
+                "POS": 201091993,
+                "REF": "G"
+            },
+            "rs776746": {
+                "ALIASES": [
+                    "6986A>G"
+                ],
+                "ALTS": [
+                    "C"
+                ],
+                "CHROM": "chr7",
+                "COORDINATES": "chr7:99672916",
+                "GENOTYPE": "C/C",
+                "POS": 99672916,
+                "REF": "T"
+            },
+            "rs78060119": {
+                "ALIASES": [
+                    "c.1156G>T"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr1",
+                "COORDINATES": "chr1:97573943",
+                "GENOTYPE": "C/C",
+                "POS": 97573943,
+                "REF": "C"
+            },
+            "rs7900194": {
+                "ALIASES": [
+                    "449G>A"
+                ],
+                "ALTS": [
+                    "A"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94942309",
+                "GENOTYPE": "G/G",
+                "POS": 94942309,
+                "REF": "G"
+            },
+            "rs7997012": {
+                "ALIASES": [
+                    "rs7997012"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr13",
+                "COORDINATES": "chr13:46837850",
+                "GENOTYPE": "G/G",
+                "POS": 46837850,
+                "REF": "A"
+            },
+            "rs887829": {
+                "ALIASES": [
+                    "-364C>T"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr2",
+                "COORDINATES": "chr2:233759924",
+                "GENOTYPE": "C/T",
+                "POS": 233759924,
+                "REF": "C"
+            },
+            "rs924607": {
+                "ALIASES": [
+                    "rs924607"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr5",
+                "COORDINATES": "chr5:609978",
+                "GENOTYPE": "T/T",
+                "POS": 609978,
+                "REF": "C"
+            },
+            "rs9332131": {
+                "ALIASES": [
+                    "10601delA"
+                ],
+                "ALTS": [
+                    "G"
+                ],
+                "CHROM": "chr10",
+                "COORDINATES": "chr10:94949281",
+                "GENOTYPE": "GA/GA",
+                "POS": 94949281,
+                "REF": "GA"
+            },
+            "rs9923231": {
+                "ALIASES": [
+                    "-1639G>A"
+                ],
+                "ALTS": [
+                    "T"
+                ],
+                "CHROM": "chr16",
+                "COORDINATES": "chr16:31096368",
+                "GENOTYPE": "C/T",
+                "POS": 31096368,
+                "REF": "C"
+            }
+        }
+    },
+    "PATIENT" : {
+        "id": "pat1",
+        "birthDate": "2000-01-01"
+    },
+    "PIPELINE_VERSION": "0.1.0"
+}
