@@ -1,10 +1,13 @@
-torch 
-torchvision 
-torchaudio 
---extra-index-url https://download.pytorch.org/whl/cu113
+# torch 
+# torchvision 
+# torchaudio 
+# --extra-index-url https://download.pytorch.org/whl/cu113
 
-pytorch-lightning
-torchmetrics
-torchdata
+# pytorch-lightning
+# torchmetrics
+# torchdata
+
+streamlit
+dvc[s3]
 
 pip-tools

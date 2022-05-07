@@ -4,151 +4,468 @@
 #
 #    pip-compile
 #
---extra-index-url https://download.pytorch.org/whl/cu113
-
-absl-py==1.0.0
-    # via tensorboard
+aiobotocore[boto3]==2.2.0
+    # via
+    #   dvc
+    #   s3fs
 aiohttp==3.8.1
-    # via fsspec
+    # via
+    #   aiobotocore
+    #   aiohttp-retry
+    #   fsspec
+    #   s3fs
+aiohttp-retry==2.4.6
+    # via dvc
+aioitertools==0.10.0
+    # via aiobotocore
 aiosignal==1.2.0
     # via aiohttp
+altair==4.2.0
+    # via streamlit
+appdirs==1.4.4
+    # via dvc
+argon2-cffi==21.3.0
+    # via notebook
+argon2-cffi-bindings==21.2.0
+    # via argon2-cffi
+asttokens==2.0.5
+    # via stack-data
 async-timeout==4.0.2
     # via aiohttp
+asyncssh==2.10.1
+    # via scmrepo
+atpublic==3.0.1
+    # via flufl-lock
 attrs==21.4.0
-    # via aiohttp
+    # via
+    #   aiohttp
+    #   jsonschema
+    #   streamlit
+backcall==0.2.0
+    # via ipython
+beautifulsoup4==4.11.1
+    # via nbconvert
+bleach==5.0.0
+    # via nbconvert
+blinker==1.4
+    # via streamlit
+boto3==1.21.21
+    # via aiobotocore
+botocore==1.24.21
+    # via
+    #   aiobotocore
+    #   boto3
+    #   s3transfer
 cachetools==5.0.0
-    # via google-auth
+    # via streamlit
 certifi==2021.10.8
-    # via requests
+    # via
+    #   dulwich
+    #   requests
+cffi==1.15.0
+    # via
+    #   argon2-cffi-bindings
+    #   cryptography
+    #   pygit2
 charset-normalizer==2.0.12
     # via
     #   aiohttp
     #   requests
-click==8.1.3
-    # via pip-tools
+click==8.0.4
+    # via
+    #   pip-tools
+    #   streamlit
+colorama==0.4.4
+    # via dvc
+commonmark==0.9.1
+    # via rich
+configobj==5.0.6
+    # via dvc
+cryptography==37.0.2
+    # via asyncssh
+debugpy==1.6.0
+    # via ipykernel
+decorator==5.1.1
+    # via
+    #   ipython
+    #   validators
+defusedxml==0.7.1
+    # via nbconvert
+dictdiffer==0.9.0
+    # via dvc
+diskcache==5.4.0
+    # via dvc
+distro==1.7.0
+    # via dvc
+dpath==2.0.6
+    # via dvc
+dulwich==0.20.35
+    # via scmrepo
+dvc[s3]==2.10.2
+    # via -r requirements.in
+dvc-render==0.0.5
+    # via
+    #   dvc
+    #   dvclive
+dvclive==0.7.3
+    # via dvc
+entrypoints==0.4
+    # via
+    #   altair
+    #   jupyter-client
+    #   nbconvert
+executing==0.8.3
+    # via stack-data
+fastjsonschema==2.15.3
+    # via nbformat
+flatten-dict==0.4.2
+    # via dvc
+flufl-lock==7.0
+    # via dvc
 frozenlist==1.3.0
     # via
     #   aiohttp
     #   aiosignal
 fsspec[http]==2022.3.0
-    # via pytorch-lightning
-google-auth==2.6.6
     # via
-    #   google-auth-oauthlib
-    #   tensorboard
-google-auth-oauthlib==0.4.6
-    # via tensorboard
-grpcio==1.46.0
-    # via tensorboard
+    #   dvc
+    #   s3fs
+    #   scmrepo
+ftfy==6.1.1
+    # via python-benedict
+funcy==1.17
+    # via
+    #   dvc
+    #   dvc-render
+    #   scmrepo
+future==0.18.2
+    # via grandalf
+gitdb==4.0.9
+    # via gitpython
+gitpython==3.1.27
+    # via
+    #   scmrepo
+    #   streamlit
+grandalf==0.6
+    # via dvc
 idna==3.3
     # via
     #   requests
     #   yarl
 importlib-metadata==4.11.3
-    # via markdown
-markdown==3.3.7
-    # via tensorboard
+    # via streamlit
+ipykernel==6.13.0
+    # via
+    #   ipywidgets
+    #   notebook
+    #   pydeck
+ipython==8.3.0
+    # via
+    #   ipykernel
+    #   ipywidgets
+ipython-genutils==0.2.0
+    # via
+    #   ipywidgets
+    #   notebook
+ipywidgets==7.7.0
+    # via pydeck
+jedi==0.18.1
+    # via ipython
+jinja2==3.1.2
+    # via
+    #   altair
+    #   nbconvert
+    #   notebook
+    #   pydeck
+jmespath==1.0.0
+    # via
+    #   boto3
+    #   botocore
+jsonschema==4.5.1
+    # via
+    #   altair
+    #   nbformat
+jupyter-client==7.3.0
+    # via
+    #   ipykernel
+    #   nbclient
+    #   notebook
+jupyter-core==4.10.0
+    # via
+    #   jupyter-client
+    #   nbconvert
+    #   nbformat
+    #   notebook
+jupyterlab-pygments==0.2.2
+    # via nbconvert
+jupyterlab-widgets==1.1.0
+    # via ipywidgets
+mailchecker==4.1.16
+    # via python-benedict
+markupsafe==2.1.1
+    # via
+    #   jinja2
+    #   nbconvert
+matplotlib-inline==0.1.3
+    # via
+    #   ipykernel
+    #   ipython
+mistune==0.8.4
+    # via nbconvert
 multidict==6.0.2
     # via
     #   aiohttp
     #   yarl
+nanotime==0.5.2
+    # via dvc
+nbclient==0.6.2
+    # via nbconvert
+nbconvert==6.5.0
+    # via notebook
+nbformat==5.4.0
+    # via
+    #   ipywidgets
+    #   nbclient
+    #   nbconvert
+    #   notebook
+nest-asyncio==1.5.5
+    # via
+    #   ipykernel
+    #   jupyter-client
+    #   nbclient
+    #   notebook
+networkx==2.8
+    # via dvc
+notebook==6.4.11
+    # via widgetsnbextension
 numpy==1.22.3
     # via
-    #   pytorch-lightning
-    #   tensorboard
-    #   torchmetrics
-    #   torchvision
-oauthlib==3.2.0
-    # via requests-oauthlib
+    #   altair
+    #   pandas
+    #   pyarrow
+    #   pydeck
+    #   streamlit
 packaging==21.3
     # via
-    #   pytorch-lightning
-    #   torchmetrics
+    #   dvc
+    #   ipykernel
+    #   nbconvert
+    #   streamlit
+pandas==1.4.2
+    # via
+    #   altair
+    #   streamlit
+pandocfilters==1.5.0
+    # via nbconvert
+parso==0.8.3
+    # via jedi
+pathspec==0.9.0
+    # via
+    #   dvc
+    #   scmrepo
 pep517==0.12.0
     # via pip-tools
+pexpect==4.8.0
+    # via ipython
+phonenumbers==8.12.48
+    # via python-benedict
+pickleshare==0.7.5
+    # via ipython
 pillow==9.1.0
-    # via torchvision
+    # via streamlit
 pip-tools==6.6.0
     # via -r requirements.in
+prometheus-client==0.14.1
+    # via notebook
+prompt-toolkit==3.0.29
+    # via ipython
 protobuf==3.20.1
-    # via tensorboard
-pyasn1==0.4.8
+    # via streamlit
+psutil==5.9.0
     # via
-    #   pyasn1-modules
-    #   rsa
-pyasn1-modules==0.2.8
-    # via google-auth
-pydeprecate==0.3.2
+    #   dvc
+    #   flufl-lock
+    #   ipykernel
+ptyprocess==0.7.0
     # via
-    #   pytorch-lightning
-    #   torchmetrics
+    #   pexpect
+    #   terminado
+pure-eval==0.2.2
+    # via stack-data
+pyarrow==8.0.0
+    # via streamlit
+pycparser==2.21
+    # via cffi
+pydeck==0.7.1
+    # via streamlit
+pydot==1.4.2
+    # via dvc
+pygit2==1.9.1
+    # via scmrepo
+pygments==2.12.0
+    # via
+    #   ipython
+    #   nbconvert
+    #   rich
+pygtrie==2.4.2
+    # via
+    #   dvc
+    #   scmrepo
+pympler==1.0.1
+    # via streamlit
 pyparsing==3.0.8
-    # via packaging
-pytorch-lightning==1.6.3
-    # via -r requirements.in
+    # via
+    #   dvc
+    #   grandalf
+    #   packaging
+    #   pydot
+pyrsistent==0.18.1
+    # via jsonschema
+python-benedict==0.25.1
+    # via dvc
+python-dateutil==2.8.2
+    # via
+    #   botocore
+    #   jupyter-client
+    #   pandas
+    #   python-benedict
+    #   streamlit
+python-fsutil==0.6.0
+    # via python-benedict
+python-slugify==6.1.2
+    # via python-benedict
+pytz==2022.1
+    # via pandas
+pytz-deprecation-shim==0.1.0.post0
+    # via tzlocal
 pyyaml==6.0
-    # via pytorch-lightning
+    # via python-benedict
+pyzmq==22.3.0
+    # via
+    #   jupyter-client
+    #   notebook
 requests==2.27.1
     # via
+    #   dvc
     #   fsspec
-    #   requests-oauthlib
-    #   tensorboard
-    #   torchdata
-    #   torchvision
-requests-oauthlib==1.3.1
-    # via google-auth-oauthlib
-rsa==4.8
-    # via google-auth
+    #   python-benedict
+    #   streamlit
+rich==12.4.0
+    # via dvc
+ruamel-yaml==0.17.21
+    # via dvc
+ruamel-yaml-clib==0.2.6
+    # via ruamel-yaml
+s3fs[boto3]==2022.3.0
+    # via dvc
+s3transfer==0.5.2
+    # via boto3
+scmrepo==0.0.19
+    # via dvc
+semver==2.13.0
+    # via streamlit
+send2trash==1.8.0
+    # via notebook
+shortuuid==1.0.8
+    # via dvc
+shtab==1.5.4
+    # via dvc
 six==1.16.0
     # via
-    #   absl-py
-    #   google-auth
-    #   grpcio
-tensorboard==2.9.0
-    # via pytorch-lightning
-tensorboard-data-server==0.6.1
-    # via tensorboard
-tensorboard-plugin-wit==1.8.1
-    # via tensorboard
+    #   asttokens
+    #   bleach
+    #   configobj
+    #   flatten-dict
+    #   python-dateutil
+smmap==5.0.0
+    # via gitdb
+soupsieve==2.3.2.post1
+    # via beautifulsoup4
+stack-data==0.2.0
+    # via ipython
+streamlit==1.9.0
+    # via -r requirements.in
+tabulate==0.8.9
+    # via
+    #   dvc
+    #   dvc-render
+terminado==0.13.3
+    # via notebook
+text-unidecode==1.3
+    # via python-slugify
+tinycss2==1.1.1
+    # via nbconvert
+toml==0.10.2
+    # via
+    #   dvc
+    #   python-benedict
+    #   streamlit
 tomli==2.0.1
     # via pep517
-torch==1.11.0+cu113
+toolz==0.11.2
+    # via altair
+tornado==6.1
     # via
-    #   -r requirements.in
-    #   pytorch-lightning
-    #   torchaudio
-    #   torchdata
-    #   torchmetrics
-    #   torchvision
-torchaudio==0.11.0+cu113
-    # via -r requirements.in
-torchdata==0.3.0
-    # via -r requirements.in
-torchmetrics==0.8.2
-    # via
-    #   -r requirements.in
-    #   pytorch-lightning
-torchvision==0.12.0+cu113
-    # via -r requirements.in
+    #   ipykernel
+    #   jupyter-client
+    #   notebook
+    #   streamlit
+    #   terminado
 tqdm==4.64.0
-    # via pytorch-lightning
+    # via dvc
+traitlets==5.1.1
+    # via
+    #   ipykernel
+    #   ipython
+    #   ipywidgets
+    #   jupyter-client
+    #   jupyter-core
+    #   matplotlib-inline
+    #   nbclient
+    #   nbconvert
+    #   nbformat
+    #   notebook
+    #   pydeck
 typing-extensions==4.2.0
     # via
-    #   pytorch-lightning
-    #   torch
-    #   torchvision
+    #   aioitertools
+    #   asyncssh
+    #   dvc
+tzdata==2022.1
+    # via pytz-deprecation-shim
+tzlocal==4.2
+    # via streamlit
 urllib3==1.26.9
     # via
+    #   botocore
+    #   dulwich
     #   requests
-    #   torchdata
-werkzeug==2.1.2
-    # via tensorboard
-wheel==0.37.1
+validators==0.19.0
+    # via streamlit
+voluptuous==0.13.1
+    # via dvc
+watchdog==2.1.7
+    # via streamlit
+wcwidth==0.2.5
     # via
-    #   pip-tools
-    #   tensorboard
+    #   ftfy
+    #   prompt-toolkit
+webencodings==0.5.1
+    # via
+    #   bleach
+    #   tinycss2
+wheel==0.37.1
+    # via pip-tools
+widgetsnbextension==3.6.0
+    # via ipywidgets
+wrapt==1.14.1
+    # via aiobotocore
+xmltodict==0.12.0
+    # via python-benedict
 yarl==1.7.2
     # via aiohttp
+zc-lockfile==2.0
+    # via dvc
 zipp==3.8.0
     # via importlib-metadata
 
