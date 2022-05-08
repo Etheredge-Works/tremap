@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
         key = st.radio("Select key", df.columns, index=11)
         # key = "scientificName"
-        keys = ["scientificName", "countryCode", "stateProvince", "species", "taxonKey"]
+        keys = ["scientificName", "countryCode", "stateProvince", "species", "taxonKey", "speciesKey"]
         bkey = st.radio("Select key", keys, index=1)
 
         names = sorted(df[key].unique())
