@@ -163,6 +163,7 @@ ipython==8.3.0
     # via
     #   ipykernel
     #   ipywidgets
+    #   pyvis
 ipython-genutils==0.2.0
     # via
     #   ipywidgets
@@ -177,10 +178,13 @@ jinja2==3.1.2
     #   nbconvert
     #   notebook
     #   pydeck
+    #   pyvis
 jmespath==1.0.0
     # via
     #   boto3
     #   botocore
+jsonpickle==2.1.0
+    # via pyvis
 jsonschema==4.5.1
     # via
     #   altair
@@ -235,7 +239,9 @@ nest-asyncio==1.5.5
     #   nbclient
     #   notebook
 networkx==2.8
-    # via dvc
+    # via
+    #   dvc
+    #   pyvis
 notebook==6.4.11
     # via widgetsnbextension
 numpy==1.22.3
@@ -342,6 +348,8 @@ pytz==2022.1
     # via pandas
 pytz-deprecation-shim==0.1.0.post0
     # via tzlocal
+pyvis==0.2.0
+    # via -r requirements.in
 pyyaml==6.0
     # via python-benedict
 pyzmq==22.3.0
