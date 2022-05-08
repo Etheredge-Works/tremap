@@ -27,7 +27,6 @@ if __name__ == "__main__":
         key = 'stateProvince'
         c = df[df['countryCode'] == 'US']
 
-
         selections = st.multiselect(f"Select state...", sorted(c[key].unique())) 
         
         st.write("# Map")
@@ -40,7 +39,7 @@ if __name__ == "__main__":
         keys = ["scientificName", "verbatimScientificName"]
         bkey = st.radio("Select key", keys, index=1)
 
-        names = sorted(df[key].unique(), key = lambda x: x or 0)
+        names = sorted(df[key].unique())
         # if key in ["scientificName", "verbatimScientificName"]:
         if False:
             n = len(names) // 4

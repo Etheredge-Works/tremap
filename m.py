@@ -11,7 +11,7 @@ def app(key, values):
         lats = us_data['decimalLatitude']
         longs = us_data['decimalLongitude']
         mask = longs.isna() | lats.isna()
-        mask = mask | us_data['scientificName'].isna()
+        mask = mask | us_data[key].isna()
         for value in values:
             mask = mask | ~(us_data[key] == value)
 
