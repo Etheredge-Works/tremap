@@ -1,7 +1,9 @@
 import streamlit as st
 import pandas as pd
+import data
 
-def app(df): 
+
+def app(names): 
     with st.spinner("Preparing map..."):
         # st.pydeck_chart(pdk.Deck(
         # map_style='mapbox://styles/mapbox/light-v9',
@@ -31,25 +33,27 @@ def app(df):
         #     ),
         # ],
         # ))
+
+
+        lats = data.df['decimalLatitude']
+        longs = data.df['decimalLongitude']
+        mask = longs.isna() | lats.isna()
+        mask = mask | data.df['scientificName'].isna()
+        for name in names:
+            mask = mask | ~data.df['scientificName'].str.contains(name)
+
+        df = pd.DataFrame()
+        df['lat'] = lats
+        df['lon'] = longs
+
+        df = df[~mask]
         st.map(df)
 
     #TODO Filter out non-US (maybe)
 
 
-df = None
 
-with st.spinner("Preparing data..."):
-    us_data = pd.read_parquet('final_data.parquet')
-    lats = us_data['decimalLatitude']
-    longs = us_data['decimalLongitude']
-    mask = longs.isna() | lats.isna()
 
-    df = pd.DataFrame()
-    del us_data
-    df['lat'] = lats
-    df['lon'] = longs
 
-    df = df[~mask]
-
-app(df)
-
+if __name__ == "__main__":
+    app(names=[])

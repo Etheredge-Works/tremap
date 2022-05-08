@@ -5,14 +5,14 @@ import pydeck as pdk
 
 import gbif
 import inat
-import ny
+import data as downloaded_data
 
 def app():
     st.title("Exploration")
 
     st.write("Hello Streamlit!")
-    images = ny.df['identifier']
-    ids = ny.df['gbifID'].to_list()[:10]
+    images = downloaded_data.df['identifier']
+    ids = downloaded_data.df['gbifID'].to_list()[:10]
     with st.spinner("Loading..."):
         datas = gbif.get_ny_species(ids)
     st.write(datas[:4])
@@ -114,3 +114,7 @@ def app():
 #          ),
 #      ],
 #  ))
+
+
+if __name__ == "__main__":
+    app()
