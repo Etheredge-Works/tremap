@@ -36,7 +36,7 @@ with st.spinner("Getting data..."):
     else:
         print("File already exists")
 
-st.cache()
+@st.cache()
 def get_data():
     df = pd.read_parquet("final_data_clean.parquet")
     df['species'] = df['species'].fillna('')
@@ -49,7 +49,7 @@ def get_data():
     
     return df
 
-st.cache()
+@st.cache()
 def get_names():
     names = get_data()["scientificName"].unique().tolist()
 
