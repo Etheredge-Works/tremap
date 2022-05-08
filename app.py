@@ -8,6 +8,7 @@ from itertools import cycle
 df = data.get_data()
 # names = data.get_names()
 
+
 if __name__ == "__main__":
     with st.sidebar:
         # with st.echo():
@@ -28,8 +29,10 @@ if __name__ == "__main__":
 
         key = st.radio("Select key", df.columns, index=1)
         # key = "scientificName"
+        keys = ["scientificName", "verbatimScientificName"]
+        bkey = st.radio("Select key", keys, index=1)
 
-        names = sorted(df[key].unique())
+        names = sorted(df[key].unique(), key = lambda x: x or 0)
         # if key in ["scientificName", "verbatimScientificName"]:
         if False:
             n = len(names) // 4
@@ -43,7 +46,7 @@ if __name__ == "__main__":
                 f"Select {key} (\"{names[(n*3)+1]}\"    -    \"{names[n*4]}\"):", names[(n*3)+1:])
         else:
             selections = st.multiselect(
-                f"Select {key}", sorted(df[key].unique()))
+                f"Select {key}", names)
         # st.write("You selected:", selections)
         # selections = st.multiselect(
         #     "Select species:", 

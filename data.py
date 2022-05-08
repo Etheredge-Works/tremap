@@ -37,11 +37,20 @@ with st.spinner("Getting data..."):
 st.cache()
 def get_data():
     df = pd.read_parquet("final_data_clean.parquet")
+    df['species'] = df['species'].fillna('')
+    df['genus'] = df['genus'].fillna('')
+    df['stateProvince'] = df['stateProvince'].fillna('')
+    df['countryCode'] = df['countryCode'].fillna('')
+    # df
+    # df.fillna("", inplace=True)
+    # df['']
+    
     return df
 
 st.cache()
 def get_names():
     names = get_data()["scientificName"].unique().tolist()
+
     return sorted(names)
 
 def get_images(key, values):
