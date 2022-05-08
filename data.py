@@ -2,6 +2,7 @@ import os
 from os.path import exists
 import boto3
 import pandas as pd
+import streamlit as st
 
 
 # AWS_S3_BUCKET = "hatch-2022"
@@ -32,7 +33,15 @@ if not exists("final_data.parquet"):
         s3.download_fileobj('hatch-2022', 'final_data.parquet', f)
         print("Downloaded file")
 
-df = pd.read_parquet("final_data.parquet")
+st.cache()
+def get_data():
+    df = pd.read_parquet("final_data.parquet")
+    return df
+
+st.cache()
+def get_names():
+    names = get_data()["scientificName"].unique()
+    return names
 
 # if not exists("fast_data"):
 #     with open('s3_fast_data.parquet', 'wb') as f:

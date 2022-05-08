@@ -11,8 +11,9 @@ def app():
     st.title("Exploration")
 
     st.write("Hello Streamlit!")
-    images = downloaded_data.df['identifier']
-    ids = downloaded_data.df['gbifID'].to_list()[:10]
+    df = downloaded_data.get_data()
+    images = df['identifier']
+    ids = df['gbifID'].to_list()[:10]
     with st.spinner("Loading..."):
         datas = gbif.get_ny_species(ids)
     st.write(datas[:4])

@@ -34,13 +34,14 @@ def app(names):
         # ],
         # ))
 
+        us_data = data.get_data()
 
-        lats = data.df['decimalLatitude']
-        longs = data.df['decimalLongitude']
+        lats = us_data['decimalLatitude']
+        longs = us_data['decimalLongitude']
         mask = longs.isna() | lats.isna()
-        mask = mask | data.df['scientificName'].isna()
+        mask = mask | us_data['scientificName'].isna()
         for name in names:
-            mask = mask | ~data.df['scientificName'].str.contains(name)
+            mask = mask | ~us_data['scientificName'].str.contains(name)
 
         df = pd.DataFrame()
         df['lat'] = lats

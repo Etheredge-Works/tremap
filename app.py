@@ -4,6 +4,7 @@ import exploration
 import m
 
 
+df = data.get_data()
 
 if __name__ == "__main__":
     with st.sidebar:
@@ -15,8 +16,16 @@ if __name__ == "__main__":
         ["Basic", "Map", "Advanced"]
     )
 
-    st.write(data.df.columns)
-    selections = st.multiselect("Select species:", data.df['scientificName'].to_list())
+
+    st.write(df.columns)
+
+    selections = st.multiselect(
+        "Select species:", data.get_names())
+    # selections = st.multiselect(
+    #     "Select species:", 
+    #     data.df, 
+    #     format_func=lambda x: x['scientificName']
+    # )
 
     if mode_select == "Advanced":
         exploration.app()
