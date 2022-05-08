@@ -1,0 +1,23 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  hatch_2022:
+    restart: always
+    environment: 
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - API_URL=${API_URL}
+      - API_USERNAME=${API_USERNAME}
+      - API_PASSWORD=${API_PASSWORD}
+    build: .
+    networks:
+      - proxynet
+    expose:
+      - 8501
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.hatch_2022.rule=Host(`${DOMAIN_URL}`)"
+      - "traefik.http.routers.hatch_2022.entrypoints=http"
+networks:
+    proxynet:
+        external:
+            name: "proxynet"
