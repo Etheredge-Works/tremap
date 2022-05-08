@@ -5,3 +5,4 @@
 /fast_data
 /other_data
 /final_data.parquet
+/final_data_clean.parquet
