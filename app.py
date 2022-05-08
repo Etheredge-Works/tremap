@@ -28,6 +28,14 @@ if __name__ == "__main__":
         c = df[df['countryCode'] == 'US']
 
         selections = st.multiselect(f"Select state...", sorted(c[key].unique())) 
+
+        images, captions, name, final, raw_df = data.get_images(key, selections)
+
+        st.write("# Pressings")
+        with st.expander("See images"):
+            cols = cycle(st.columns(4))
+            for idx, image in enumerate(images):
+                next(cols).image(image, width = 150, caption=final[idx])
         
         st.write("# Map")
         m.app(key, selections) 
