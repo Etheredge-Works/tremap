@@ -49,10 +49,9 @@ def get_images(names):
     captions = []
     nameesss = []
     raw_df = pd.DataFrame()
-    raw = []
     for name in names:
         filtered_df = df[df["scientificName"] == name]
-        df += filtered_df
+        raw_df = pd.concat([raw_df, filtered_df])
         images += filtered_df["identifier"].tolist()
         captions += filtered_df["recordedBy"].tolist()
         nameesss += [name for _ in range (len(filtered_df))]
