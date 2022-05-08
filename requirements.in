@@ -7,7 +7,7 @@
 # torchmetrics
 # torchdata
 
-streamlit
+# streamlit
 dvc[s3]
 
 pip-tools
