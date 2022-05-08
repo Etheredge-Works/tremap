@@ -41,19 +41,19 @@ if __name__ == "__main__":
 
         names = sorted(df[key].unique())
         # if key in ["scientificName", "verbatimScientificName"]:
-        if False:
-            n = len(names) // 4
-            selections = st.multiselect(
-                f"Select {key} (\"{names[0]}\"    -    \"{names[n]}\"):", names[:n])
-            selections += st.multiselect(
-                f"Select {key} (\"{names[n+1]}\"    -    \"{names[n*2]}\"):", names[n+1:n*2])
-            selections += st.multiselect(
-                f"Select {key} (\"{names[(n*2)+1]}\"    -    \"{names[n*3]}\"):", names[(n*2)+1:n*3])
-            selections += st.multiselect(
-                f"Select {key} (\"{names[(n*3)+1]}\"    -    \"{names[n*4]}\"):", names[(n*3)+1:])
-        else:
-            selections = st.multiselect(
-                f"Select {key}", names)
+        # if False:
+        #     n = len(names) // 4
+        #     selections = st.multiselect(
+        #         f"Select {key} (\"{names[0]}\"    -    \"{names[n]}\"):", names[:n])
+        #     selections += st.multiselect(
+        #         f"Select {key} (\"{names[n+1]}\"    -    \"{names[n*2]}\"):", names[n+1:n*2])
+        #     selections += st.multiselect(
+        #         f"Select {key} (\"{names[(n*2)+1]}\"    -    \"{names[n*3]}\"):", names[(n*2)+1:n*3])
+        #     selections += st.multiselect(
+        #         f"Select {key} (\"{names[(n*3)+1]}\"    -    \"{names[n*4]}\"):", names[(n*3)+1:])
+        # else:
+        selections = st.multiselect(
+            f"Select {key}", names)
         # st.write("You selected:", selections)
         # selections = st.multiselect(
         #     "Select species:", 
