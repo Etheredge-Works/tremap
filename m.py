@@ -20,6 +20,8 @@ def app(key, values):
         df['lon'] = longs
 
         df = df[~mask]
+        if len(df) == 0:
+            st.write("No latitude/longitude data found.")
         st.map(df)
 
     #TODO Filter out non-US (maybe)
