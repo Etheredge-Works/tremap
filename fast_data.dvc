@@ -1,0 +1,5 @@
+outs:
+- md5: 2037ba6fbe43cc2e0e751e115985cae3.dir
+  size: 3210818213
+  nfiles: 4
+  path: fast_data
