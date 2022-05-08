@@ -2,6 +2,7 @@ import streamlit as st
 import data
 import exploration
 import m
+from itertools import cycle
 
 
 df = data.get_data()
@@ -57,7 +58,9 @@ if __name__ == "__main__":
         # print(final)
         st.write("# Pressings")
         with st.expander("See images"):
-            st.image(images, caption=final)
+            cols = cycle(st.columns(4))
+            for idx, image in enumerate(images):
+                next(cols).image(image, width = 150, caption=final[idx])
 
         st.write("# All data")
         st.write(raw_df)
