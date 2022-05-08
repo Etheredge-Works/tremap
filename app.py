@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
     elif mode_select == "Advanced":
 
-        key = st.radio("Select key", df.columns, index=1)
+        key = st.radio("Select key", df.columns, index=11)
         # key = "scientificName"
         keys = ["scientificName", "verbatimScientificName"]
         bkey = st.radio("Select key", keys, index=1)
