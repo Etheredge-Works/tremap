@@ -1,5 +1,8 @@
 [![Deploy Demo Site](https://github.com/Etheredge-Works/hatch_2022/actions/workflows/demo.yml/badge.svg)](https://github.com/Etheredge-Works/hatch_2022/actions/workflows/demo.yml)
 
+# Licensing
+Copying and distribution of this file, with or without modification, are permitted in any medium without royalty. This work is offered as-is, without any warranty.
+
 # Demo Site
 - Site 1: https://hatch.etheredge.dev/
 - Site 2: https://share.streamlit.io/etheredge-works/hatch_2022/app.py
