@@ -47,7 +47,8 @@ if __name__ == "__main__":
         # print(name)
         # print(final)
         st.write("# Pressings")
-        st.image(images, caption=final)
+        with st.expander("See images"):
+            st.image(images, caption=final)
 
         st.write("# All data")
         st.write(raw_df)
