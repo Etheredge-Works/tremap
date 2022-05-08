@@ -44,10 +44,11 @@ if __name__ == "__main__":
 
     elif mode_select == "Advanced":
 
-        key = st.radio("Select key", df.columns, index=11)
+        #key = st.radio("Select key", df.columns, index=11)
         # key = "scientificName"
-        keys = ["scientificName", "countryCode", "stateProvince", "species", "taxonKey", "speciesKey"]
-        bkey = st.radio("Select key", keys, index=1)
+        keys = ["scientificName", "countryCode", "stateProvince", "species", "taxonKey", "speciesKey", "kingdom",
+                    "genus", "taxonRank", "decimalLatitute", "decimalLongitude"]
+        key = st.radio("Select key", keys, index=0)
 
         names = sorted(df[key].unique())
         # if key in ["scientificName", "verbatimScientificName"]:
