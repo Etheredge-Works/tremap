@@ -27,11 +27,12 @@ s3_client = boto3.client(
 # if status == 200:
 #     final_df = pd.read_parquet(response["Body"])
 
-s3 = boto3.client('s3', endpoint_url='https://minio.etheredge.co')
-if not exists("final_data_clean.parquet"):
-    with open('final_data_clean.parquet', 'wb') as f:
-        s3.download_fileobj('hatch-2022', 'final_data.parquet', f)
-        print("Downloaded file")
+with st.spinner("Getting data..."):
+    s3 = boto3.client('s3', endpoint_url='https://minio.etheredge.co')
+    if not exists("final_data_clean.parquet"):
+        with open('final_data_clean.parquet', 'wb') as f:
+            s3.download_fileobj('hatch-2022', 'final_data.parquet', f)
+            print("Downloaded file")
 
 st.cache()
 def get_data():
