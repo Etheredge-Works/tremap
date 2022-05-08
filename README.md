@@ -1,3 +1,10 @@
+[![Deploy Demo Site](https://github.com/Etheredge-Works/hatch_2022/actions/workflows/demo.yml/badge.svg)](https://github.com/Etheredge-Works/hatch_2022/actions/workflows/demo.yml)
+
+# Demo Site
+- Site 1: https://hatch.etheredge.dev/
+- Site 2: https://share.streamlit.io/etheredge-works/hatch_2022/app.py
+
+
 ## Graph: 
 - https://towardsdatascience.com/making-network-graphs-interactive-with-python-and-pyvis-b754c22c270
 - https://share.streamlit.io/napoles-uach/streamlit_network/main/app.py
