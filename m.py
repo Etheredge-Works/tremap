@@ -41,7 +41,7 @@ def app(names):
         mask = longs.isna() | lats.isna()
         mask = mask | us_data['scientificName'].isna()
         for name in names:
-            mask = mask | ~us_data['scientificName'].str.contains(name)
+            mask = mask | ~(us_data['scientificName'] == name)
 
         df = pd.DataFrame()
         df['lat'] = lats

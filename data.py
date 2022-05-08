@@ -28,20 +28,35 @@ s3_client = boto3.client(
 #     final_df = pd.read_parquet(response["Body"])
 
 s3 = boto3.client('s3', endpoint_url='https://minio.etheredge.co')
-if not exists("final_data.parquet"):
-    with open('final_data.parquet', 'wb') as f:
+if not exists("final_data_clean.parquet"):
+    with open('final_data_clean.parquet', 'wb') as f:
         s3.download_fileobj('hatch-2022', 'final_data.parquet', f)
         print("Downloaded file")
 
 st.cache()
 def get_data():
-    df = pd.read_parquet("final_data.parquet")
+    df = pd.read_parquet("final_data_clean.parquet")
     return df
 
 st.cache()
 def get_names():
-    names = get_data()["scientificName"].unique()
-    return names
+    names = get_data()["scientificName"].unique().tolist()
+    return sorted(names)
+
+def get_images(names):
+    df = get_data()
+    images = []
+    captions = []
+    nameesss = []
+    for name in names:
+        filtered_df = df[df["scientificName"] == name]
+        images += filtered_df["identifier"].tolist()
+        captions += filtered_df["recordedBy"].tolist()
+        nameesss += [name for _ in range (len(filtered_df))]
+    final = []
+    for caption, name in zip(captions, nameesss):
+        final.append(f"{name} recorded by {caption}")
+    return images, captions, nameesss, final
 
 # if not exists("fast_data"):
 #     with open('s3_fast_data.parquet', 'wb') as f:
