@@ -3,3 +3,5 @@
 
 **/__pycache__
 /fast_data
+/other_data
+/final_data.parquet
