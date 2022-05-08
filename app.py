@@ -10,14 +10,16 @@ df = data.get_data()
 
 
 if __name__ == "__main__":
-    with st.sidebar:
+    # with st.sidebar:
         # with st.echo():
-        #     st.write("Modes")
-        st.title("Modes")
+            # st.write("Modes")
+        # st.title("Modes")
     mode_select = st.sidebar.radio(
         "Select mode",
         ["Basic", "Advanced"]
     )
+
+    st.write("Please be patient with loading. There's a lot of records :)")
 
 
     # st.write(df.columns)
