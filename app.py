@@ -24,7 +24,15 @@ if __name__ == "__main__":
 
     # selections = st.multiselect(
     if mode_select == "Basic":
-        pass   
+        key = 'stateProvince'
+        c = df[df['countryCode'] == 'US']
+
+
+        selections = st.multiselect(f"Select state...", sorted(c[key].unique())) 
+        
+        st.write("# Map")
+        m.app(key, selections) 
+
     elif mode_select == "Advanced":
 
         key = st.radio("Select key", df.columns, index=1)
@@ -65,11 +73,15 @@ if __name__ == "__main__":
             for idx, image in enumerate(images):
                 next(cols).image(image, width = 150, caption=final[idx])
 
-        st.write("# All data")
-        st.write(raw_df)
+
         # if mode_select == "Advanced":
         #     exploration.app()
 
         st.write("# Map")
         # elif mode_select == "Map":
         m.app(key, selections)
+
+
+        with st.expander("All data"):
+            st.write(raw_df)
+
