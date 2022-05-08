@@ -24,6 +24,7 @@ if __name__ == "__main__":
     if mode_select == "Basic":
         pass   
     elif mode_select == "Advanced":
+        
         n = len(names) // 4
         selections = st.multiselect(
             f"Select species (\"{names[0]}\"    -    \"{names[n]}\"):", names[:n])
@@ -40,7 +41,7 @@ if __name__ == "__main__":
         #     format_func=lambda x: x['scientificName']
         # )
 
-        images, captions, name, final = data.get_images(selections)
+        images, captions, name, final, raw_df = data.get_images(selections)
         # print(images)
         # print(captions)
         # print(name)
@@ -48,6 +49,8 @@ if __name__ == "__main__":
         st.write("# Pressings")
         st.image(images, caption=final)
 
+        st.write("# All data")
+        st.write(raw_df)
         # if mode_select == "Advanced":
         #     exploration.app()
 

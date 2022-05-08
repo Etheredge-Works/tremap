@@ -48,15 +48,18 @@ def get_images(names):
     images = []
     captions = []
     nameesss = []
+    raw_df = pd.DataFrame()
+    raw = []
     for name in names:
         filtered_df = df[df["scientificName"] == name]
+        df += filtered_df
         images += filtered_df["identifier"].tolist()
         captions += filtered_df["recordedBy"].tolist()
         nameesss += [name for _ in range (len(filtered_df))]
     final = []
     for caption, name in zip(captions, nameesss):
         final.append(f"{name} recorded by {caption}")
-    return images, captions, nameesss, final
+    return images, captions, nameesss, final, raw_df
 
 # if not exists("fast_data"):
 #     with open('s3_fast_data.parquet', 'wb') as f:

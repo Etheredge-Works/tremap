@@ -5,9 +5,6 @@ import data
 
 def app(names): 
     with st.spinner("Preparing map..."):
-        print()
-
-        st.map(df)
 
         us_data = data.get_data()
 
@@ -27,18 +24,18 @@ def app(names):
 
     #TODO Filter out non-US (maybe)
 
-with st.spinner("Preparing data..."):
-    us_data = pd.read_parquet('final_data.parquet')
+# with st.spinner("Preparing data..."):
+    # us_data = pd.read_parquet('final_data.parquet')
 
-    st.write(us_data.keys())
+    # st.write(us_data.keys())
 
-    for key in us_data.keys():
-        if key == 'verbatimScientificName':
-            st.write(us_data[key])
+    # for key in us_data.keys():
+        # if key == 'verbatimScientificName':
+            # st.write(us_data[key])
         
-    lats = us_data['decimalLatitude']
-    longs = us_data['decimalLongitude']
-    mask = longs.isna() | lats.isna()
+    # lats = us_data['decimalLatitude']
+    # longs = us_data['decimalLongitude']
+    # mask = longs.isna() | lats.isna()
 
 
 if __name__ == "__main__":
