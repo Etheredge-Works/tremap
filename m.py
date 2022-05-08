@@ -3,7 +3,7 @@ import pydeck as pdk
 import pandas as pd
 import data
 
-def app(names): 
+def app(key, values): 
     with st.spinner("Preparing map..."):
 
         us_data = data.get_data()
@@ -12,8 +12,8 @@ def app(names):
         longs = us_data['decimalLongitude']
         mask = longs.isna() | lats.isna()
         mask = mask | us_data['scientificName'].isna()
-        for name in names:
-            mask = mask | ~(us_data['scientificName'] == name)
+        for value in values:
+            mask = mask | ~(us_data[key] == value)
 
         df = pd.DataFrame()
         df['lat'] = lats

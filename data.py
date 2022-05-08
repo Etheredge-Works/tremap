@@ -44,22 +44,26 @@ def get_names():
     names = get_data()["scientificName"].unique().tolist()
     return sorted(names)
 
-def get_images(names):
+def get_images(key, values):
     df = get_data()
     images = []
     captions = []
-    nameesss = []
+    s_names = []
     raw_df = pd.DataFrame()
-    for name in names:
-        filtered_df = df[df["scientificName"] == name]
+    for value in values:
+        filtered_df = df[df[key] == value]
         raw_df = pd.concat([raw_df, filtered_df])
         images += filtered_df["identifier"].tolist()
         captions += filtered_df["recordedBy"].tolist()
-        nameesss += [name for _ in range (len(filtered_df))]
+
+        if len(filtered_df) > 1:
+            s_names += filtered_df["scientificName"].tolist()
+        else:
+            s_names += [filtered_df["scientificName"].iloc[0]]
     final = []
-    for caption, name in zip(captions, nameesss):
+    for caption, name in zip(captions, s_names):
         final.append(f"{name} recorded by {caption}")
-    return images, captions, nameesss, final, raw_df
+    return images, captions, s_names, final, raw_df
 
 # if not exists("fast_data"):
 #     with open('s3_fast_data.parquet', 'wb') as f:

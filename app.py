@@ -5,7 +5,7 @@ import m
 
 
 df = data.get_data()
-names = data.get_names()
+# names = data.get_names()
 
 if __name__ == "__main__":
     with st.sidebar:
@@ -24,16 +24,25 @@ if __name__ == "__main__":
     if mode_select == "Basic":
         pass   
     elif mode_select == "Advanced":
-        
-        n = len(names) // 4
-        selections = st.multiselect(
-            f"Select species (\"{names[0]}\"    -    \"{names[n]}\"):", names[:n])
-        selections += st.multiselect(
-            f"Select species (\"{names[n+1]}\"    -    \"{names[n*2]}\"):", names[n+1:n*2])
-        selections += st.multiselect(
-            f"Select species (\"{names[(n*2)+1]}\"    -    \"{names[n*3]}\"):", names[(n*2)+1:n*3])
-        selections += st.multiselect(
-            f"Select species (\"{names[(n*3)+1]}\"    -    \"{names[n*4]}\"):", names[(n*3)+1:])
+
+        key = st.radio("Select key", df.columns, index=1)
+        # key = "scientificName"
+
+        names = sorted(df[key].unique())
+        # if key in ["scientificName", "verbatimScientificName"]:
+        if False:
+            n = len(names) // 4
+            selections = st.multiselect(
+                f"Select {key} (\"{names[0]}\"    -    \"{names[n]}\"):", names[:n])
+            selections += st.multiselect(
+                f"Select {key} (\"{names[n+1]}\"    -    \"{names[n*2]}\"):", names[n+1:n*2])
+            selections += st.multiselect(
+                f"Select {key} (\"{names[(n*2)+1]}\"    -    \"{names[n*3]}\"):", names[(n*2)+1:n*3])
+            selections += st.multiselect(
+                f"Select {key} (\"{names[(n*3)+1]}\"    -    \"{names[n*4]}\"):", names[(n*3)+1:])
+        else:
+            selections = st.multiselect(
+                f"Select {key}", sorted(df[key].unique()))
         # st.write("You selected:", selections)
         # selections = st.multiselect(
         #     "Select species:", 
@@ -41,7 +50,7 @@ if __name__ == "__main__":
         #     format_func=lambda x: x['scientificName']
         # )
 
-        images, captions, name, final, raw_df = data.get_images(selections)
+        images, captions, name, final, raw_df = data.get_images(key, selections)
         # print(images)
         # print(captions)
         # print(name)
@@ -57,4 +66,4 @@ if __name__ == "__main__":
 
         st.write("# Map")
         # elif mode_select == "Map":
-        m.app(selections)
+        m.app(key, selections)
