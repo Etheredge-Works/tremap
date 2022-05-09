@@ -18,6 +18,7 @@ if __name__ == "__main__":
         "Select mode",
         ["Basic", "Advanced"]
     )
+    st.image("tremap_logos/tremap-green.png")
 
     st.write("Please be patient with loading. There's a lot of records :)")
 
