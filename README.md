@@ -4,7 +4,8 @@
 Copying and distribution of this file, with or without modification, are permitted in any medium without royalty. This work is offered as-is, without any warranty.
 
 # Demo Site
-- Site: https://tremap.etheredge.dev/
+- Site 1: https://share.streamlit.io/etheredge-works/tremap/app.py
+- Site 2: https://tremap.etheredge.dev/
 
 
 ## Graph: 
