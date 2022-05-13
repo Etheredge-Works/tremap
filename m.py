@@ -12,8 +12,8 @@ def app(key, values):
         longs = us_data['decimalLongitude']
         mask = longs.isna() | lats.isna()
         mask = mask | us_data[key].isna()
-        for value in values:
-            mask = mask | ~(us_data[key] == value)
+        value_mask = us_data[key].isin(values)
+        mask = mask | ~value_mask
 
         df = pd.DataFrame()
         df['lat'] = lats

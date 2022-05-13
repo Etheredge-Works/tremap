@@ -1,3 +1,4 @@
+from logging import PlaceHolder
 import streamlit as st
 import data
 import exploration
@@ -7,6 +8,11 @@ from itertools import cycle
 
 df = data.get_data()
 # names = data.get_names()
+
+@st.cache
+def get_values(key):
+    global df
+    return df[key].unique()
 
 
 if __name__ == "__main__":
@@ -34,14 +40,23 @@ if __name__ == "__main__":
 
         images, captions, name, final, raw_df = data.get_images(key, selections)
 
-        st.write("# Pressings")
-        with st.expander("See images"):
-            cols = cycle(st.columns(4))
-            for idx, image in enumerate(images):
-                next(cols).image(image, width = 150, caption=final[idx])
-        
         st.write("# Map")
         m.app(key, selections) 
+        st.write("# Pressings")
+
+        # with st.expander("See images"):
+        if len(images) > 0:
+            page_idx = st.selectbox("Page: ", list(range(1, len(images)//16)))
+            start = (page_idx-1) * 16
+            end = start + 16
+            im_placeholder = st.empty()
+            with im_placeholder.container():
+                # cols = cycle(st.columns(4))
+                cols = cycle(im_placeholder.columns(4))
+                for col, image, caption in zip(cols, images[start:end], captions[start:end]):
+                    # im_placeholder.image(image, caption)
+                    col.image(image, width=150, caption=caption)
+        
 
     elif mode_select == "Advanced":
 
@@ -51,7 +66,7 @@ if __name__ == "__main__":
                     "genus", "taxonRank", "decimalLatitute", "decimalLongitude"]
         key = st.radio("Select key", keys, index=0)
 
-        names = sorted(df[key].unique())
+        names = get_values(key)
         # if key in ["scientificName", "verbatimScientificName"]:
         # if False:
         #     n = len(names) // 4
@@ -72,6 +87,9 @@ if __name__ == "__main__":
         #     data.df, 
         #     format_func=lambda x: x['scientificName']
         # )
+        st.write("# Map")
+        # elif mode_select == "Map":
+        m.app(key, selections)
 
         images, captions, name, final, raw_df = data.get_images(key, selections)
         # print(images)
@@ -79,18 +97,20 @@ if __name__ == "__main__":
         # print(name)
         # print(final)
         st.write("# Pressings")
-        with st.expander("See images"):
-            cols = cycle(st.columns(4))
-            for idx, image in enumerate(images):
-                next(cols).image(image, width = 150, caption=final[idx])
-
+        page_idx = st.selectbox("Page: ", list(range(1, len(images)//16)))
+        start = (page_idx-1) * 16
+        end = start + 16
+        im_placeholder = st.empty()
+        with im_placeholder.container():
+            # cols = cycle(st.columns(4))
+            cols = cycle(im_placeholder.columns(4))
+            for col, image, caption in zip(cols, images[start:end], captions[start:end]):
+                # im_placeholder.image(image, caption)
+                col.image(image, width=150, caption=caption)
 
         # if mode_select == "Advanced":
         #     exploration.app()
 
-        st.write("# Map")
-        # elif mode_select == "Map":
-        m.app(key, selections)
 
 
         with st.expander("All data"):
