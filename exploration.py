@@ -5,7 +5,7 @@ import pydeck as pdk
 
 import gbif
 import inat
-import data as downloaded_data
+import py_data as downloaded_data
 
 def app():
     st.title("Exploration")

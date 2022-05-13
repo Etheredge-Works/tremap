@@ -1,12 +1,12 @@
 import streamlit as st
 import pydeck as pdk
 import pandas as pd
-import data
+import py_data
 
 def app(key, values): 
     with st.spinner("Preparing map..."):
 
-        us_data = data.get_data()
+        us_data = py_data.get_data()
 
         lats = us_data['decimalLatitude']
         longs = us_data['decimalLongitude']

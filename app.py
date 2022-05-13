@@ -1,12 +1,12 @@
 from logging import PlaceHolder
 import streamlit as st
-import data
+import py_data
 import exploration
 import m
 from itertools import cycle
 
 
-df = data.get_data()
+df = py_data.get_data()
 # names = data.get_names()
 
 @st.cache
@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
         selections = st.multiselect(f"Select state...", sorted(c[key].unique())) 
 
-        images, captions, name, final, raw_df = data.get_images(key, selections)
+        images, captions, name, final, raw_df = py_data.get_images(key, selections)
 
         st.write("# Map")
         m.app(key, selections) 
@@ -91,7 +91,7 @@ if __name__ == "__main__":
         # elif mode_select == "Map":
         m.app(key, selections)
 
-        images, captions, name, final, raw_df = data.get_images(key, selections)
+        images, captions, name, final, raw_df = py_data.get_images(key, selections)
         # print(images)
         # print(captions)
         # print(name)
