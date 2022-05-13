@@ -4,9 +4,7 @@
 Copying and distribution of this file, with or without modification, are permitted in any medium without royalty. This work is offered as-is, without any warranty.
 
 # Demo Site
-- Main: http://136.53.91.152:8501/
-- Site 1: https://hatch.etheredge.dev/
-- Site 2: https://share.streamlit.io/etheredge-works/hatch_2022/app.py
+- Site: https://hatch.etheredge.dev/
 
 
 ## Graph: 
