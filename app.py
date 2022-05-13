@@ -97,16 +97,17 @@ if __name__ == "__main__":
         # print(name)
         # print(final)
         st.write("# Pressings")
-        page_idx = st.selectbox("Page: ", list(range(1, len(images)//16)))
-        start = (page_idx-1) * 16
-        end = start + 16
-        im_placeholder = st.empty()
-        with im_placeholder.container():
-            # cols = cycle(st.columns(4))
-            cols = cycle(im_placeholder.columns(4))
-            for col, image, caption in zip(cols, images[start:end], captions[start:end]):
-                # im_placeholder.image(image, caption)
-                col.image(image, width=150, caption=caption)
+        if len(images) > 0:
+            page_idx = st.selectbox("Page: ", list(range(1, len(images)//16)))
+            start = (page_idx-1) * 16
+            end = start + 16
+            im_placeholder = st.empty()
+            with im_placeholder.container():
+                # cols = cycle(st.columns(4))
+                cols = cycle(im_placeholder.columns(4))
+                for col, image, caption in zip(cols, images[start:end], captions[start:end]):
+                    # im_placeholder.image(image, caption)
+                    col.image(image, width=150, caption=caption)
 
         # if mode_select == "Advanced":
         #     exploration.app()
