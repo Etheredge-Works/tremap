@@ -29,13 +29,13 @@ s3_client = boto3.client(
 
 @st.cache()
 def get_data():
-    with st.spinner("Getting data..."):
-        s3 = boto3.client('s3', endpoint_url='https://minio.etheredge.co')
-        if not exists("final_data_clean.parquet"):
-            s3.download_file('hatch-2022', 'final_data_clean.parquet', 'final_data_clean.parquet')
-            print("Downloaded file")
-        else:
-            print("File already exists")
+    # with st.spinner("Getting data..."):
+    #     s3 = boto3.client('s3', endpoint_url='https://minio.etheredge.co')
+    #     if not exists("final_data_clean.parquet"):
+    #         s3.download_file('hatch-2022', 'final_data_clean.parquet', 'final_data_clean.parquet')
+    #         print("Downloaded file")
+    #     else:
+    #         print("File already exists")
 
     df = pd.read_parquet("final_data_clean.parquet")
     df['species'] = df['species'].fillna('')
