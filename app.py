@@ -26,8 +26,8 @@ if __name__ == "__main__":
     )
     st.image("tremap_logos/tremap-green.png")
 
+    st.write("NOTE: Pressing images will NOT load on Google Chrome due to being hosted through HTTP.")
     st.write("Please be patient with loading. There's a lot of records :)")
-
 
     # st.write(df.columns)
 
@@ -43,6 +43,7 @@ if __name__ == "__main__":
         st.write("# Map")
         m.app(key, selections) 
         st.write("# Pressings")
+        st.write("NOTE: Pressing images will NOT load on Google Chrome due to being hosted through HTTP.")
 
         # with st.expander("See images"):
         if len(images) > 0:
@@ -56,7 +57,6 @@ if __name__ == "__main__":
                 for col, image, caption in zip(cols, images[start:end], captions[start:end]):
                     # im_placeholder.image(image, caption)
                     col.image(image, width=150, caption=caption)
-        
 
     elif mode_select == "Advanced":
 
@@ -111,8 +111,6 @@ if __name__ == "__main__":
 
         # if mode_select == "Advanced":
         #     exploration.app()
-
-
 
         with st.expander("All data"):
             st.write(raw_df)
