@@ -6,6 +6,7 @@ import m
 from itertools import cycle
 
 
+print("getting data")
 df = py_data.get_data()
 print("got data")
 # names = data.get_names()
