@@ -27,7 +27,7 @@ s3_client = boto3.client(
 # if status == 200:
 #     final_df = pd.read_parquet(response["Body"])
 
-@st.cache()
+@st.cache
 def get_data():
     # with st.spinner("Getting data..."):
     #     s3 = boto3.client('s3', endpoint_url='https://minio.etheredge.co')
@@ -48,7 +48,7 @@ def get_data():
     
     return df
 
-@st.cache()
+@st.cache
 def get_names():
     names = get_data()["scientificName"].unique().tolist()
 
