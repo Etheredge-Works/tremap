@@ -7,6 +7,7 @@ from itertools import cycle
 
 
 df = py_data.get_data()
+print("got data")
 # names = data.get_names()
 
 @st.cache
@@ -24,10 +25,13 @@ if __name__ == "__main__":
         "Select mode",
         ["Basic", "Advanced"]
     )
+
     st.image("tremap_logos/tremap-green.png")
+    print("got image")
 
     st.write("NOTE: Pressing images will NOT load on Google Chrome due to being hosted through HTTP.")
     st.write("Please be patient with loading. There's a lot of records :)")
+    print("got heading")
 
     # st.write(df.columns)
 
@@ -42,6 +46,7 @@ if __name__ == "__main__":
 
         st.write("# Map")
         m.app(key, selections) 
+        print("got map")
         st.write("# Pressings")
         st.write("NOTE: Pressing images will NOT load on Google Chrome due to being hosted through HTTP.")
 
